@@ -1,0 +1,245 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)10%,rgba(0,0,0,0.5)10%),url('o78.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 102vh;
+}
+.nav h1{
+    text-shadow: 2px 2px palevioletred;
+}
+.nav th p{
+    margin: 8px 30px;
+    border: 1px solid cyan;
+    padding: 5px;
+    background-color: cyan;
+    box-shadow: 2px 2px 2px cyan;
+}
+.nav th a{
+    text-decoration: none;
+    margin-left: 42px;
+    color: white;
+    padding: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav a:hover{
+    color: darkviolet;
+    background-color: rgb(43, 40, 40);
+    padding: 10px;
+}
+
+.col{
+    float: left;
+    margin-top: 30px;
+    width: 40%;
+    color: white;
+    margin-left: 100px;
+}
+.col h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-shadow: 3px 3px  purple ;
+}
+.col a{
+    text-decoration: none;
+    background-color: cyan;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    box-shadow:2px 2px 3px plum;
+}
+.col a:hover{
+    background-color: blueviolet;
+}
+.col img{
+    margin:10px 80px;
+    width: 200px;
+    height: 70vh;
+}
+.section1,.section2,.section3,.section4,.section5,.footer{
+    margin: 0px 40px;
+    height: 70vh;
+    color: white;
+}
+.section2{
+    padding: 5px;
+    height: 65vh;
+}
+.section2 h5{
+    text-align: center;
+    color: rgb(109, 3, 119);
+    font-weight: bold;
+    font-size: 15px;
+}
+.section2 h1{
+    text-align: center;
+    color: cyan;
+}
+.section2 p{
+    text-align: center;
+}
+.column{
+    float: left;
+    width: 40%;
+}
+.column a{
+    text-decoration: none;
+    background-color: cyan;
+    padding: 7px;
+    font-size: 15px;
+    color:black;
+    box-shadow: 2px 2px 3px cyan;
+}
+.column a:hover{
+    background-color: blueviolet;
+}
+.column h1{
+    color: cyan;
+}
+.column p{
+    color: white;
+    font-size: 17px;
+}
+.column img{
+    margin: 8px 30px;
+    border-top: 4px solid white;
+    border-left: 4px solid lavenderblush;
+    border-bottom: 4px solid beige;
+    height: 60vh;
+}
+.column1{
+    float: left;
+    width:30%;
+}
+.column1 img{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 4px cyan;
+}
+.section2 h5{
+    color: darkcyan;
+}
+.section2 p{
+    font-size: 17px;
+}
+.section3 p{
+    font-size: 17px;
+}
+.col2{
+    float: left;
+    width: 250px;
+    margin:0px 10px;
+}
+.col2 h2{
+    margin-left: 30px;
+    color: blue;
+}
+.col2 p{
+    margin-left: 30px;
+    font-size: 17px;
+}
+.col2 img{
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: transparent;
+    box-shadow: 5px 5px 7px cyan;
+}
+.section4 p{
+    font-size: 17px;
+}
+.col4{
+    float: left;
+   width: 250px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.col4 p{
+    margin-left:90px ;
+    font-size: 17px;
+}
+.col4 a{
+    text-decoration: none;
+    margin-left: 95px;
+    color: blue;
+}
+.col4 img{
+    margin: 0px 150px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: transparent;
+    box-shadow: 5px 5px 7px cyan;
+}
+.section5 p{
+    font-size: 17px;
+}
+.col5{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+}
+.col5 h2{
+    margin: 0px 115px;
+    
+}
+.col5 img{
+    margin: 0px 135px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: transparent;
+    box-shadow: 5px 5px 7px cyan;
+}
+.col5 a{
+    margin: 20px 120px;
+    text-decoration: none;
+    color: blue;
+}
+.col6{
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+   
+}
+.col6 p i{
+    margin: 10px 20px;
+    color: blueviolet;
+}
+form{
+    margin: 10px 120px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 4px cyan;
+    border: 1px solid white;
+    width: 300px;
+    height: 50vh;
+}
+form label{
+    margin: 10px 10px;
+    padding: 5px;
+    color: blue;
+}
+form input{
+    width: 200px;
+    margin-left: 12px;
+}
+form textarea{
+    margin-left: 12px;
+}
+form button{
+    font-size: 15px;
+    color: white;
+    margin: 10px 30px;
+    width: 100px;
+    background-color: rgb(54, 56, 63);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px cyan;
+}

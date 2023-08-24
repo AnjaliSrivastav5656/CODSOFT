@@ -1,0 +1,49 @@
+body{
+    background-color: hsla(39,37%,67%,0.5);
+}
+.menu{
+     background-image:linear-gradient(to top,rgba(13, 14, 13, 0.5)50%,rgba(13, 14, 13, 0.5)50%) ,url("a11.jpg"); 
+    background-size: cover;
+    background-position:70% 70%;
+    height: 90vh;
+    margin-left: 100px;
+    margin-right: 90px;
+
+    
+    
+
+}
+
+
+h1{
+   color: rgb(61, 10, 61);
+   text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    padding: 5px;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    
+}
+
+.menu li a{
+    margin: 2px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: cornsilk;
+    transition: 0.6s ease;
+}
+.menu li a:hover{
+     color: blue;
+     padding: 5px;
+     background-color: blue;
+}
+.menu p{
+    text-align: left;
+    margin: 170px 100px;
+    font-weight: bold;
+    color: rgb(13, 14, 13);
+}
